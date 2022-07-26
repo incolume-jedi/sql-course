@@ -3,14 +3,14 @@
 O SQL acrônimo de __Structured Query Language__, ou em português __Linguagem de Consulta Estruturada__ é uma linguagem que tem extrema relevância quando o assunto é manipulação de dados tabulares, o que a torna uma ferramenta essencial para diversas áreas da tecnologia.
 
 
-[O que é SQL?](#o-que-e-sql)
-[Como surgiu o SQL? História e criador!](#origem)
-[Para que serve e onde o SQL é usado?](#para-que-serve)
-[Quais as vantagens e desvantagens da linguagem SQL?](#pros-contras)
-[Porque aprender SQL?](#porque-aprender)
-[Como está o mercado de trabalho para SQL?](#mercado)
-[Conheça os 5 subconjuntos da linguagem SQL]()
-[Conheça os principais comandos, funções e operadores do SQL!]()
+- [O que é SQL?](#o-que-e-sql)
+- [Como surgiu o SQL? História e criador!](#origem)
+- [Para que serve e onde o SQL é usado?](#para-que-serve)
+- [Quais as vantagens e desvantagens da linguagem SQL?](#pros-contras)
+- [Porque aprender SQL?](#porque-aprender)
+- [Como está o mercado de trabalho para SQL?](#mercado)
+- [Conheça os 5 subconjuntos da linguagem SQL]()
+- [Conheça os principais comandos, funções e operadores do SQL!]()
 
 
 <a id="o-que-e-sql"></a>
