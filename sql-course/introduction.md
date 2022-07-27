@@ -1,5 +1,9 @@
 # Curso de SQL
 
+[indice do curso](../README.md#curso-de-sql---structured-query-language)
+
+---
+
 O SQL acrônimo de __Structured Query Language__, ou em português __Linguagem de Consulta Estruturada__ é uma linguagem que tem extrema relevância quando o assunto é manipulação de dados tabulares, o que a torna uma ferramenta essencial para diversas áreas da tecnologia.
 
 
@@ -15,7 +19,7 @@ O SQL acrônimo de __Structured Query Language__, ou em português __Linguagem d
 <a id="o-que-e-sql"></a>
 ## O que é SQL?
 
-O SQL é uma linguagem padrão para manipulação de registros em bancos de dados relacionais. A sigla SQL vem dos termos em inglês “Structured Query Language”, que podem ser traduzidos para o português como “Linguagem de Consulta Estruturada”. 
+O SQL é uma linguagem padrão para manipulação de registros em bancos de dados relacionais. A sigla SQL vem dos termos em inglês “Structured Query Language”, que podem ser traduzidos para o português como “Linguagem de Consulta Estruturada”.
 
 Trata-se ainda de uma linguagem declarativa que apresenta sintaxe simples e fácil de ser aprendida até por pessoas iniciantes na área da programação.
 
@@ -23,7 +27,7 @@ Trata-se ainda de uma linguagem declarativa que apresenta sintaxe simples e fác
 <a id="origem"></a>
 ## Como surgiu o SQL? História e criador!
 
-A linguagem SQL surgiu a partir de um estudo realizado na década de 70 pelo laboratório da IBM. 
+A linguagem SQL surgiu a partir de um estudo realizado na década de 70 pelo laboratório da IBM.
 Esse estudo tinha como um de seus objetivos elaborar uma linguagem que fosse capaz de simplificar o gerenciamento de informações em bancos de dados do tipo relacional (baseado em tabelas).
 
 Foi aí que surgiu a especificação original do SQL, que foi feita por dois conhecidos cientistas da computação, Donald D. Chamberlim e Raymond F. Boyce. O sucesso da linguagem foi imediato e rapidamente diversos “dialetos” começaram a ser desenvolvidos, o que gerou a necessidade do ANSI (American National Standards Institute) padronizar o seu uso.
@@ -33,11 +37,11 @@ Assim, o SQL continua sendo usado em grande parte dos bancos de dados relacionai
 <a id="para-que-serve"></a>
 ## Para que serve e onde o SQL é usado?
 
-O SQL é usado para fazer qualquer tipo de manipulação dos registros de um banco de dados. 
+O SQL é usado para fazer qualquer tipo de manipulação dos registros de um banco de dados.
 Ou seja, ele serve para criar, inserir, atualizar, excluir e consultar as informações armazenadas na base, além de outras diversas funções mais complexas.
 
-Atualmente, vários SGBDs amplamente utilizados no mercado são baseados em SQL. 
-Isso acontece porque bancos do tipo relacional armazenam as informações em estruturas tabulares, permitindo que sejam criadas relações entre elas. 
+Atualmente, vários SGBDs amplamente utilizados no mercado são baseados em SQL.
+Isso acontece porque bancos do tipo relacional armazenam as informações em estruturas tabulares, permitindo que sejam criadas relações entre elas.
 
 A linguagem SQL foi criada justamente para facilitar o gerenciamento de dados armazenados em base de dados em formato tabular.
 
@@ -53,7 +57,7 @@ MariaDB: Variação gratuíta do MySQL;
 <a id="pros-contras"></a>
 ## Prós e contras da linguagem SQL?
 
-E aí, conseguimos deixar evidente para que serve o SQL? 
+E aí, conseguimos deixar evidente para que serve o SQL?
 Então, agora, confira quais são as vantagens e desvantagens que podemos encontrar nessa linguagem:
 
 **Principais vantagens**
@@ -68,9 +72,9 @@ Dificuldade com a interface: para quem não está acostumado, a interface de um 
 Custo: o custo operacional de alguns serviços oferecidos por bancos que utilizam SQL é caro e dificulta o acesso dos desenvolvedores.
 
 <a id="porque-aprender"></a>
-## Porque aprender SQL? 
+## Porque aprender SQL?
 
-Há 5 motivos para começar a aprender agora! Já falamos sobre as principais vantagens que o SQL oferece, mas para quem trabalha na área da tecnologia, qual seriam os benefícios de aprender essa linguagem? A resposta você vai encontrar nos tópicos abaixo. Confira! 
+Há 5 motivos para começar a aprender agora! Já falamos sobre as principais vantagens que o SQL oferece, mas para quem trabalha na área da tecnologia, qual seriam os benefícios de aprender essa linguagem? A resposta você vai encontrar nos tópicos abaixo. Confira!
 
 1. SQL é usada em diversas aplicações
 Atualmente, a linguagem SQL é usada nas mais variadas aplicações, incluindo em sistemas de grandes empresas da tecnologia, como Google, Amazon, Uber e Netflix. Por isso, mesmo que você não vá trabalhar diretamente com bancos de dados, é bem provável que em algum momento você tenha que recuperar e manipular dados da base. Nessa hora, ter conhecimento em SQL vai fazer toda a diferença!
@@ -82,7 +86,7 @@ Por ser uma linguagem declarativa com sintaxe muito semelhante ao inglês, o apr
 Ter um bom conhecimento em SQL muda nossa perspectiva na hora de programar, pois temos um leque maior de possibilidades para desenvolver uma solução. Além disso, esse conhecimento é essencial para quem quer atuar como profissional Full Stack.
 
 4. SQL é uma linguagem estável
-Ao contrário de outras linguagens que perdem força com o tempo, o SQL continua sendo amplamente utilizado para a manipulação de dados, mesmo sendo uma linguagem considerada antiga. Por isso, ela é vista como uma linguagem estável e o tempo investido no seu aprendizado certamente será recompensado. 
+Ao contrário de outras linguagens que perdem força com o tempo, o SQL continua sendo amplamente utilizado para a manipulação de dados, mesmo sendo uma linguagem considerada antiga. Por isso, ela é vista como uma linguagem estável e o tempo investido no seu aprendizado certamente será recompensado.
 
 5. Você vai ter mais oportunidades no mercado
 Com tantos sistemas utilizando SQL por aí, a oferta de empregos na área não para de aumentar. Por isso, ter experiência no seu currículo com essa linguagem certamente vai ajudar você a conseguir ofertas de trabalho mais interessantes, inclusive algumas com alta remuneração.
@@ -92,8 +96,8 @@ Com tantos sistemas utilizando SQL por aí, a oferta de empregos na área não p
 
 O mercado de trabalho para quem tem conhecimentos em SQL é bastante promissor, tanto para quem pretende atuar diretamente com banco de dados ou quanto para quem quer ser um desenvolvedor mais completo.
 
-Uma das possibilidades mais interessantes, por exemplo, é trabalhar como DBA, ou Administrador de Banco de Dados. 
-A pessoa que atua nesse cargo tem a responsabilidade de implementar, monitorar, atualizar e garantir a segurança do banco, o que requer um excelente nível de conhecimento em SQL. 
+Uma das possibilidades mais interessantes, por exemplo, é trabalhar como DBA, ou Administrador de Banco de Dados.
+A pessoa que atua nesse cargo tem a responsabilidade de implementar, monitorar, atualizar e garantir a segurança do banco, o que requer um excelente nível de conhecimento em SQL.
 
 De acordo com a plataforma Glassdoor, o salário médio de um DBA no Brasil fica em torno de R$ 6.575. Sem dúvidas, uma excelente oportunidade, não é?
 
@@ -131,3 +135,6 @@ O DCL (Data Control Language) é o subconjunto no qual encontramos comandos para
 
 **DTL** ou **TCL**: linguagem de transação de dados
 O DTL (Data Transaction Language) — também conhecido como TCL (Transaction Control Language) — é o subconjunto SQL que define comandos que utilizamos quando é necessário gerenciar transações feitas no banco. Isso significa que eles permitem iniciar, confirmar e desfazer determinadas alterações. Os comandos estabelecidos pelo conjunto são COMMIT, BEGIN e ROLLBACK.
+
+---
+[Topo](#curso-de-sql)

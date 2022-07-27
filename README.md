@@ -1,5 +1,7 @@
-- [Introdução](/introduction.md)
-- [Principais comandos, funções e operadores do SQL](/principais-comandos.md#comandos)
-- [funções de agregação](/function-aggregate.md)
+# Curso de SQL - Structured Query Language
 
-- [Referências](/references.md)
+- [Introdução](/sql-course/introduction.md)
+- [Principais comandos, funções e operadores do SQL](/sql-course/principais-comandos.md#comandos)
+- [funções de agregação](/sql-course/function-aggregate.md)
+
+- [Referências](/sql-course/references.md)
