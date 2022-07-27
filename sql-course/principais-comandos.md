@@ -1,9 +1,12 @@
-<a id="comandos"></a>
 # Principais comandos, funções e operadores do SQL
+
+[Indice do Curso](../README.md#curso-de-sql---structured-query-language)
+
+---
 
 Agora que você já entendeu como os comandos SQL são divididos entre os 5 subconjuntos da linguagem, vamos nos aprofundar mais um pouquinho no assunto e mostrar para que serve cada um deles. Confira!
 
-### SQL CREATE 
+### SQL CREATE
 
 O comando CREATE, conforme seu nome indica, serve para criar o banco de dados e as tabelas que ele contém. A instrução usada para isso é bem simples:
 
@@ -55,7 +58,7 @@ O comando SELECT permite definir critérios para realizar consultas aos registro
 SELECT id, nome, cargo FROM funcionarios;
 ```
 
-Entretanto, existem diversas outras maneiras de realizar consultas e, utilizando os operadores corretos, podemos deixar nossas buscas mais refinadas. 
+Entretanto, existem diversas outras maneiras de realizar consultas e, utilizando os operadores corretos, podemos deixar nossas buscas mais refinadas.
 
 Para ficar mais evidente, imagine que você quer consultar o nome do funcionário com id = 15. Novamente, para especificar exatamente qual é o dado que queremos visualizar, utilizamos a cláusula WHERE, conforme mostramos no comando abaixo:
 
@@ -63,7 +66,7 @@ Para ficar mais evidente, imagine que você quer consultar o nome do funcionári
 SELECT nome FROM funcionarios WHERE id = 15;
 ```
 
-### Unindo tabelas baseado na relação entre colunas: SQL JOIN 
+### Unindo tabelas baseado na relação entre colunas: SQL JOIN
 
 Como dissemos, muitas vezes é necessário fazer buscas mais complexas na base de dados e podemos utilizar diversas instruções para refinar nosso SELECT. Entre elas, estão as cláusulas JOIN.
 
@@ -74,7 +77,7 @@ Com elas, conseguimos combinar linhas de várias tabelas com base na relação e
 - RIGHT JOIN: retorna todos os registros da tabela direita, além dos registros com valores correspondentes na tabela esquerda;
 - FULL JOIN: retorna todos os registros de ambas as tabelas quando há uma correspondência entre elas.
 
-### Unindo o resultado de duas ou mais tabelas: SQL UNION 
+### Unindo o resultado de duas ou mais tabelas: SQL UNION
 
 A função UNION é utilizada para combinar o conjunto de resultados de dois ou mais comandos SELECT. No entanto, precisamos seguir algumas regras para que a declaração funcione. Elas são:
 
@@ -87,14 +90,14 @@ Seguindo esses critérios, você pode usar o operador dessa forma:
 ```SQL
  SELECT nome FROM funcionarios
  UNION
- SELECT nome FROM clientes; 
+ SELECT nome FROM clientes;
 ```
 
-### Avaliando uma lista de condições e retornando um resultado: SQL CASE 
+### Avaliando uma lista de condições e retornando um resultado: SQL CASE
 
 A expressão CASE é usada para definir condições que devem ser atendidas durante a execução de um comando. Várias condições podem ser estabelecidas com essa expressão, mas assim que uma delas for atendida, o comando vai retornar o resultado e as demais condições não serão lidas.
 
-Para exemplificar, imagine que uma empresa vai estabelecer um bônus para as pessoas colaboradoras de acordo com o desempenho em um treinamento interno. Nesse caso, quanto maior a nota no treinamento, maior será a porcentagem obtida de bônus. 
+Para exemplificar, imagine que uma empresa vai estabelecer um bônus para as pessoas colaboradoras de acordo com o desempenho em um treinamento interno. Nesse caso, quanto maior a nota no treinamento, maior será a porcentagem obtida de bônus.
 
 Em uma situação desse tipo, poderíamos usar a expressão CASE dessa forma:
 
@@ -110,7 +113,7 @@ END AS bonus
 FROM treinamento;
 ```
 
-### Pesquisando valores similares em uma coluna: SQL LIKE 
+### Pesquisando valores similares em uma coluna: SQL LIKE
 
 O operador LIKE é utilizado para encontrar um padrão em diferentes strings. No entanto, para usá-lo, precisamos do auxílio de mais dois elementos, são eles:
 
@@ -160,7 +163,7 @@ SELECT COUNT(id), cargo FROM funcionarios GROUP BY cargo;
 
 Após rodar essa instrução, será listada uma tabela com os cargos da empresa e a quantidade de funcionários que cada um apresenta.
 
-# Extraindo a parte específica de uma string: SQL SUBSTRING 
+# Extraindo a parte específica de uma string: SQL SUBSTRING
 
 A função SUBSTRING é usada para retornar alguns caracteres de uma determinada string. Para isso, precisamos indicar os seguintes argumentos na função:
 
@@ -242,7 +245,7 @@ Já comentários de múltiplas linhas utilizam o símbolo /* no ínicio e são f
 ```SQL
  /*Aqui temos
  um comentário de
- múltiplas linhas*/ 
+ múltiplas linhas*/
 ```
 
 ### SQL RENAME
@@ -286,10 +289,10 @@ Para iniciar uma transação somente de leitura na nossa tabela “funcionarios�
 ```SQL
 SET TRANSACTION READ ONLY; -- aqui especificamos que a transação será apenas de leitura
 SELECT nome, cargo FROM funcionarios WHERE id = 5
-COMMIT;  
+COMMIT;
 ```
 
-### SQL COMMIT 
+### SQL COMMIT
 
 O comando COMMIT é usado para indicar o fim de uma transação, por isso ele sempre acompanha o comando BEGIN. Quando esse comando é rodado, todas as queries entre ele e o BEGIN serão salvas na transação atual. Já o que vier depois do COMMIT não fará parte dessa transação.
 
@@ -329,3 +332,7 @@ ROLLBACK TO SAVEPOINT nome_do_ponto_de_salvamento;
 
 Conforme foi mostrado ao longo deste conteúdo, a linguagem SQL é de extrema importância para quem trabalha com tecnologia.
 Além de ser essencial para ampliar suas oportunidades no mercado, ela também é simples de aprender e de manipular, oferecendo acesso rápido e seguro aos dados de um sistema.
+
+---
+
+[Topo](#principais-comandos-funções-e-operadores-do-sql)
