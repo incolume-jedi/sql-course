@@ -3,10 +3,10 @@
 [indice do curso](../README.md#curso-de-sql---structured-query-language)
 
 ---
-[O que é o comando SQL DELETE?](#)
-[Qual a sintaxe do comando SQL DELETE?](#)
-[5 exemplos de uso do comando SQL DELETE](#)
-[Boas práticas ao usar o comando SQL DELETE](#)
+- [O que é o comando SQL DELETE?](#)
+- [Qual a sintaxe do comando SQL DELETE?](#)
+- [5 exemplos de uso do comando SQL DELETE](#)
+- [Boas práticas ao usar o comando SQL DELETE](#)
 
 ## O que é o comando SQL DELETE?
 
