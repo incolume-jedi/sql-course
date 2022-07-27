@@ -3,7 +3,9 @@ name = "sql-course"
 version = "0.1.0"
 description = ""
 authors = ["Britodfbr <britodfbr@gmail.com>"]
-
+packages = [
+    {include='sql-course', from=""}
+]
 [tool.poetry.dependencies]
 python = "^3.10"
 
