@@ -47,12 +47,11 @@ A linguagem SQL foi criada justamente para facilitar o gerenciamento de dados ar
 
 Alguns dos principais sistemas que utilizam essa tecnologia são:
 
-
-PostgreSQL: muito usado em aplicações web, essa é uma opção gratuita de código aberto;
-Oracle: conhecido pela sua segurança, esse sistema é um dos mais usados por grandes corporações;
-MS SQL Server: desenvolvido pela Microsoft, ele oferece tanto serviços pagos quanto versões gratuitas para download.
-MySQL: ofertado pela Oracle, é uma opção que oferece serviços gratuitos e pagos;
-MariaDB: Variação gratuíta do MySQL;
+- PostgreSQL: muito usado em aplicações web, essa é uma opção gratuita de código aberto;
+- Oracle: conhecido pela sua segurança, esse sistema é um dos mais usados por grandes corporações;
+- MS SQL Server: desenvolvido pela Microsoft, ele oferece tanto serviços pagos quanto versões gratuitas para download.
+- MySQL: ofertado pela Oracle, é uma opção que oferece serviços gratuitos e pagos;
+- MariaDB: Variação gratuíta do MySQL;
 
 <a id="pros-contras"></a>
 ## Prós e contras da linguagem SQL?
@@ -61,14 +60,24 @@ E aí, conseguimos deixar evidente para que serve o SQL?
 Então, agora, confira quais são as vantagens e desvantagens que podemos encontrar nessa linguagem:
 
 **Principais vantagens**
-Padronização: como dissemos mais acima, o SQL foi padronizado pelo ANSI. Por isso, ela oferece uma ampla documentação e, aprendendo a linguagem, você vai conseguir lidar facilmente com diferentes bancos de dados que a implementam;
-Rápido acesso aos dados: SQL permite a recuperação de múltiplos registros com um único comando, tudo feito de forma rápida e eficiente;
+
+Padronização: como dissemos mais acima, o SQL foi padronizado pelo ANSI.
+Por isso, ela oferece uma ampla documentação e, aprendendo a linguagem,
+você vai conseguir lidar facilmente com diferentes bancos de dados que a implementam;
+
+Rápido acesso aos dados: SQL permite a recuperação de múltiplos registros
+com um único comando, tudo feito de forma rápida e eficiente;
+
 Portabilidade: o SQL pode ser usado em diversas aplicações para diferentes plataformas;
+
 Múltiplas visões de dados: com SQL é possível definir diferentes visualizações da estrutura do banco para diferentes pessoas usuárias;
+
 Linguagem cliente/servidor: com SQL é possível implementar arquitetura cliente-servidor.
 
 **Principais desvantagens**
+
 Dificuldade com a interface: para quem não está acostumado, a interface de um banco de dados SQL pode ser mais difícil de lidar;
+
 Custo: o custo operacional de alguns serviços oferecidos por bancos que utilizam SQL é caro e dificulta o acesso dos desenvolvedores.
 
 <a id="porque-aprender"></a>
