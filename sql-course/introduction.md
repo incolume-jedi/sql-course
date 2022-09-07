@@ -105,6 +105,7 @@ Já segundo o Guia de Profissões da Catho, um Analista de Sistemas SQL recebe u
 
 Entretanto, existem vários outros cargos nos quais você pode encontrar oportunidades. Afinal, muitas áreas da tecnologia exigem algum nível de conhecimento em SQL. Entre elas, podemos citar:
 
+Cientista da Computação;
 Engenharia de Software;
 Business Intelligence;
 Data Science;
@@ -114,7 +115,7 @@ Engenheiro de dados;
 Analista de Sistemas, entre outros.
 
 
-![Subconjuntos da SQL](/img/subconjuntos-sql.png "Diagrama de subconjutos da SQL")
+![Subconjuntos da SQL](../img/subconjuntos-sql.png "Diagrama de subconjutos da SQL")
 
 <a id="subconjunto-sql"></a>
 ## Subconjuntos da linguagem SQL e seus comandos
